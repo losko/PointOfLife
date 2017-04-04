@@ -4,3 +4,5 @@ Finished index.html.
 Added bootstrap fiels.
 Added background image.
 ---
+Sliced index.html to simple WP theme.
+---
