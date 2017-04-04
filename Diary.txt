@@ -1,1 +1,6 @@
 Start the project with Bootstrap.
+---
+Finished index.html.
+Added bootstrap fiels.
+Added background image.
+---

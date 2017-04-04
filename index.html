@@ -4,31 +4,71 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
     <title>Home - losko</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
 <body>
-    <header class="container">
-        <div class="row header-container">
-            <h1>Моята Изтория</h1>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand navbar-brand-my" href="index.html">Losko</a>
+            </div>
+            <div class="collapse navbar-collapse" id="main-nav">
+                <ul class="nav navbar-nav navbar-right main-nav-ul">
+                    <li>
+                        <a href="#">начало</a>
+                    </li>
+                    <li>
+                        <a href="#">творчество</a>
+                    </li>
+                    <li>
+                        <a href="#">блог</a>
+                    </li>
+                    <li>
+                        <a href="#">контакти</a>
+                    </li>
+                    <li>
+                        <a href="#">за мен</a>
+                    </li>
+                    <li>
+                        <a href="#">за сайта</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="row">
-            <div class="header-left col-xs-6 col-sm-6 col-md-6 col-lg-6">
-
-            </div>
-            <div class="header-right col-xs-6 col-sm-6 col-md-6 col-lg-6">
-
-            </div>
+    </nav>
+    <header class="container-fluid">
+        <div class="row heading-container">
+            <h1 class="main-heading"><a href="index.html">Моята Изтория</a></h1>
         </div>
     </header>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+    <main class="container-fluid main">
+        <nav class="container past-future-nav">
+            <div class="row">
+                <button class="col-xs-12 col-sm-12 col-md-4 col-lg-4 time-nav">
+                    <a href="#">началото</a>
+                </button>
+                <button class="col-xs-12 col-sm-12 col-md-4 col-lg-4 time-nav">
+                    <a href="#">сега</a>
+                </button>
+                <button class="col-xs-12 col-sm-12 col-md-4 col-lg-4 time-nav">
+                    <a href="#">целите</a>
+                </button>
+            </div>
+        </nav>
+    </main>
+    <footer class="container-fluid navbar-fixed-bottom">
+        <p>&copy; Losko 2017</p>
+    </footer>
 </body>
 </html>
