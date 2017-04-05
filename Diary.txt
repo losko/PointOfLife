@@ -6,3 +6,7 @@ Added background image.
 ---
 Sliced index.html to simple WP theme.
 ---
+Implement bootstrap nav with WP theme.
+Created basic layout for posts.
+Added basic functionality for wp theme: custom backgrounds, menu, post types.
+---

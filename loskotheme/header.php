@@ -19,29 +19,17 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand navbar-brand-my" href="index.html">Losko</a>
+                <a class="navbar-brand navbar-brand-my" href="home">Losko</a>
             </div>
             <div class="collapse navbar-collapse" id="main-nav">
-                <ul class="nav navbar-nav navbar-right main-nav-ul">
-                    <li>
-                        <a href="#">начало</a>
-                    </li>
-                    <li>
-                        <a href="#">творчество</a>
-                    </li>
-                    <li>
-                        <a href="#">блог</a>
-                    </li>
-                    <li>
-                        <a href="#">контакти</a>
-                    </li>
-                    <li>
-                        <a href="#">за мен</a>
-                    </li>
-                    <li>
-                        <a href="#">за сайта</a>
-                    </li>
-                </ul>
+                <?php wp_nav_menu(array(
+                        'theme_location'=>'primary',
+                        'container' => false,
+                        'menu_class' => 'nav navbar-nav navbar-right main-nav-ul'
+                        )
+                    );
+                ?>
             </div>
         </div>
     </nav>
+    <?php /*wp_nav_menu(array('theme_location'=>'primary')); */?>
