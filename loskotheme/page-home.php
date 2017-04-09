@@ -1,10 +1,9 @@
-<?php get_header(); ?>
+<!--My home-page-->
+<?php get_header();  ?>
 
-<header class="container-fluid">
-	<div class="row heading-container">
-		<h1 class="main-heading"><a href="index.html">Моята Изтория</a></h1>
-	</div>
-</header>
+    <div class="row heading-container">
+        <h1 class="main-heading"><a href="home">Моята История</a></h1>
+    </div>
 <main class="container-fluid main">
 	<nav class="container past-future-nav">
 		<div class="row">

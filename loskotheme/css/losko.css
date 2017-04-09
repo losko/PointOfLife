@@ -1,8 +1,8 @@
 body {
     height: 850px;
-    background-color: #1b6d85 ;
+    /*background-color: #1b6d85 ;
     background: url("../img/Home-background-1.jpg");
-    background-size: cover;
+    background-size: cover;*/
 }
 .main-nav-ul li a{
     font-size: 2rem;
@@ -33,6 +33,7 @@ body {
 }
 .heading-container {
     text-align: center;
+    margin-right: 0px;
 }
 
 h1.main-heading a {
@@ -41,6 +42,10 @@ h1.main-heading a {
     font-weight: 600;
     font-size: 5rem;
     color: #dceeff;
+}
+header.main-header {
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 main.main {
 
@@ -89,5 +94,11 @@ footer {
 .post-my {
     color: #fff;
     font-size: 2rem;
+}
+.blog-container-my {
+    background-color: #000;
+}
+.sidebar-my {
+    background-color: #fff;
 }
 
