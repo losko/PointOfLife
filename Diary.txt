@@ -15,4 +15,5 @@ Added file sidebar.php
 ---
 Added file post-content.php
 Added theme screenshot.
+.
 ---
