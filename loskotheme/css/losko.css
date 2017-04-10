@@ -101,4 +101,16 @@ footer {
 .sidebar-my {
     background-color: #fff;
 }
+.blog-my {
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+}
+.entry-title {
+    text-align: center;
+}
+.entry-title a {
+    text-decoration: none;
+    color: #fff;
+}
 

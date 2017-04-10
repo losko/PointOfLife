@@ -10,3 +10,9 @@ Implement bootstrap nav with WP theme.
 Created basic layout for posts.
 Added basic functionality for wp theme: custom backgrounds, menu, post types.
 ---
+Added sidebar functionality.
+Added file sidebar.php
+---
+Added file post-content.php
+Added theme screenshot.
+---
